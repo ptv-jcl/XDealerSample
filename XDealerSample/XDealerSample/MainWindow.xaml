@@ -1,0 +1,10 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Map="clr-namespace:Ptv.XServer.Controls.Map;assembly=Ptv.XServer.Controls.Map" x:Class="XDealerSample.MainWindow"
+        Title="MainWindow" Height="600" Width="1000" Icon="pack://siteoforigin:,,,/Resources/XRouteIcon.ico" 
+        >
+    <Grid>
+        <Map:WpfMap Name="mapControl" Loaded="mapControl_Loaded" MouseRightButtonUp="mapControl_MouseRightButtonUp" />
+    </Grid>
+</Window>

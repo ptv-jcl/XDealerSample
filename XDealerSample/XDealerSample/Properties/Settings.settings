@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="XDealerSample.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="XMapUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://localhost:50010/xmap/ws/XMap</Value>
+    </Setting>
+    <Setting Name="GeoDataSource" Type="System.String" Scope="User">
+      <Value Profile="(Default)">default.points-of-interest;[POITYPE] = '7311'</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
